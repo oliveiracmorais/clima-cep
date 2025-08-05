@@ -24,8 +24,6 @@ COPY --from=builder /app/cep-clima .
 
 EXPOSE 8080
 
-ENV WEATHER_API_KEY=4580cae74883437d87020027250408
-
 COPY templates ./templates
 
 CMD ["./cep-clima"]
