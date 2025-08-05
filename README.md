@@ -37,4 +37,9 @@ echo "WEATHER_API_KEY=sua_chave_aqui" > .env
 # Inicie a aplicação
 docker-compose up --build
 
-# Acesse a página principal do projeto (exemplo: localhost:8080) e informe o CEP que deseja consultar.
+# Acesse a página principal do projeto a URL_BASE e informe o CEP que deseja consultar.
+# local
+localhost:8080
+
+# Cloud Run
+https://cep-clima-2fcsjepn5q-uc.a.run.app/
